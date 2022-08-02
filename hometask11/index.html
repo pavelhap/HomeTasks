@@ -1,0 +1,58 @@
+<!-- Домашка 11(до 22.07. 00-00)
+
+Дописываем дату вниз страницы ((с) - 2022 год), также текущую дату и время и методы.
+1. Метод средней оценки ревью (по всем ревью)
+2. 2 Метода сортировки от большего к меньшему и наоборот
+
+Прислать в личку в телеграм архив с заданием -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="hometask10.js" defer></script>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Review Task</h1>
+        <p id="review-mark" name="review-mark">Average Review: </p>
+        <br>
+        <input id="sortMintoMax" type="button" value="sort min to max" /> <input id="sortMaxtoMin" type="button"
+            value="sort max to min" />
+        <form id="form">
+            <br>
+            <label> From</label>
+            <input type='text' id='from' name="from">
+            <label> Text</label>
+            <input type='text' id='text' name="text">
+            <label> Review </label>
+            <input type='number' id='review' name="review">
+            <input type='submit'>
+            <div id="item-list">
+        </form>
+
+        <div class="push">
+        </div>
+    </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>Copyright: Pavel Haponau &copy
+            <script>document.write(/\d{4}/.exec(Date())[0])</script>
+            Current time:
+            <script>document.write(new Date().toLocaleString()) </script>
+        </p>
+    </footer>
+
+</body>
+
+
+</html>
